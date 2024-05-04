@@ -1,0 +1,18 @@
+#root {
+  display: flex;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/src/assets/background.png");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
