@@ -5,17 +5,23 @@
   .picture {
     display: flex;
     flex-basis: 700px;
-    background-color: white;
     height: 430px;
     margin-right: 20px;
+    background-size: cover;
   }
   .me {
+    padding: 0 20px 0 20px;
     a {
       color: #8f8f8f;
     }
 
     p {
-      font-size: 20px;
+      font-size: 21px;
+      margin: 14px 0 14px 0;
+    }
+
+    p:first-child {
+      margin-top: 0;
     }
   }
 }

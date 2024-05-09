@@ -9,7 +9,9 @@ export default function About() {
       <Header />
       <section className="container">
         <section className="about">
-          <div className="picture"></div>
+          <div className="picture">
+            <img src="/src/assets/myself.jpg" alt="Thales Leite" />
+          </div>
           <div className="me">
             <p>
               I am Thales Leite, a web developer from São Paulo, Brazil, based
