@@ -1,18 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 
 #root {
+  display: flex;
+  flex-direction: column;
   padding: 1rem 2rem 0 2rem;
   text-align: center;
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 body {
   font-family: "Abel", sans-serif;
   background-image: url("/src/assets/background.png");
   background-size: cover;
-  height: 100vh;
+  margin: 0;
+  color: #fff;
 }
 
 .container {
-  max-height: 100vh;
-  min-height: 500px;
+  height: 100vh;
+  padding: 15px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  a {
+    color: #fff;
+  }
 }

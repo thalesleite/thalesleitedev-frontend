@@ -7,7 +7,9 @@ export default function Lattes() {
       <Header />
 
       <section className="container">
-        <section className="lattes">Lattes Section</section>
+        <section className="lattes">
+          <h1>Coming soon...</h1>
+        </section>
       </section>
       <Footer />
     </>

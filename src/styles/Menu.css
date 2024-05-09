@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: start;
   gap: 10px;
+  margin-bottom: 30px;
 
   a {
     text-decoration: none;
