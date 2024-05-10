@@ -3,13 +3,8 @@
 #root {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
   padding: 0 2rem 0 2rem;
-  height: 100%;
-}
-
-html,
-body {
-  height: 100%;
 }
 
 body {
@@ -18,10 +13,14 @@ body {
   background-size: cover;
   margin: 0;
   color: #fff;
+
+  a {
+    color: #fff;
+  }
 }
 
 .container {
-  height: 100vh;
+  flex: 1;
   padding: 15px;
 
   h1 {

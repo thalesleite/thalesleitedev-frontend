@@ -1,5 +1,6 @@
 .footer {
-  text-align: center;
+  display: flex;
+  align-self: center;
   padding: 15px 15px 5px 15px;
   color: #8f8f8f;
 }
