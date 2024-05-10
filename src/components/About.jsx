@@ -1,5 +1,7 @@
 import "../styles/About.css"
 
+import myImage from "../assets/myself.jpg"
+
 import Header from "./Header"
 import Footer from "./Footer"
 
@@ -10,7 +12,7 @@ export default function About() {
       <section className="container">
         <section className="about">
           <div className="picture">
-            <img src="/src/assets/myself.jpg" alt="Thales Leite" />
+            <img src={myImage} alt="Thales Leite" />
           </div>
           <div className="me">
             <p>
