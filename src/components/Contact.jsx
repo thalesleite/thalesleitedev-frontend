@@ -13,8 +13,8 @@ import Footer from "./Footer"
 export default function Contact() {
   return (
     <>
-      <Header />
-      <section className="container">
+      {/* <Header /> */}
+      <section className="container" id="contact">
         <section className="contact">
           <h1>Contact Me</h1>
 
@@ -41,7 +41,7 @@ export default function Contact() {
           </p>
         </section>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

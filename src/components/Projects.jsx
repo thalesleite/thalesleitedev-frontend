@@ -4,8 +4,6 @@ import imgHeadstart from "../assets/projects/headstartcourses.png"
 import imgThemotorbikedoctor from "../assets/projects/themotorbikedoctor.png"
 
 import { Link } from "react-router-dom"
-import Menu from "./Menu"
-import Footer from "./Footer"
 
 export default function Projects() {
   const projects = [
@@ -27,8 +25,7 @@ export default function Projects() {
 
   return (
     <>
-      <Menu />
-      <section className="container">
+      <section className="container" id="projects">
         <section className="projects">
           <h1>My Projects</h1>
           {projects &&
@@ -59,7 +56,6 @@ export default function Projects() {
             })}
         </section>
       </section>
-      <Footer />
     </>
   )
 }

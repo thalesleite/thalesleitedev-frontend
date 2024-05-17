@@ -14,11 +14,9 @@
     font-size: 28px;
   }
 
-  div:nth-child(2),
-  div:nth-child(4) {
-    a {
-      color: #fff;
-    }
+  a:nth-child(2),
+  a:nth-child(4) {
+    color: #fff;
   }
 
   div {
@@ -26,16 +24,33 @@
   }
 
   .pixel {
+    display: none;
     width: 28px;
     height: 28px;
     margin-right: 10px;
-  }
-
-  .bg-gray {
     background-color: #8f8f8f;
   }
 
-  .bg-white {
-    background-color: #fff;
+  .menu-section {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .menu-section:hover {
+    .pixel {
+      display: block;
+    }
+  }
+
+  .menu-section:nth-child(4) {
+    .pixel {
+      background-color: #fff;
+    }
+  }
+
+  .menu-section:nth-child(2) {
+    .pixel {
+      background-color: #fff;
+    }
   }
 }
