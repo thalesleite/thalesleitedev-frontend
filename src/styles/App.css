@@ -3,6 +3,8 @@
 #root {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
   min-height: 100vh;
   padding: 0 2rem 0 2rem;
 }

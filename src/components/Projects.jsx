@@ -25,36 +25,34 @@ export default function Projects() {
 
   return (
     <>
-      <section className="container" id="projects">
-        <section className="projects">
-          <h1>My Projects</h1>
-          {projects &&
-            projects.map((project) => {
-              return (
-                <div className="project" key={project.id}>
-                  <h2>
-                    {project.name} -{" "}
-                    <a
-                      href={project.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {project.textUrl}
-                    </a>
-                  </h2>
-                  <div className="folder">
-                    <Link
-                      to={project.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img src={project.img} alt={project.name} />
-                    </Link>
-                  </div>
+      <section className="projects" id="projects">
+        <h1>My Projects</h1>
+        {projects &&
+          projects.map((project) => {
+            return (
+              <div className="project" key={project.id}>
+                <h2>
+                  {project.name} -{" "}
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {project.textUrl}
+                  </a>
+                </h2>
+                <div className="folder">
+                  <Link
+                    to={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={project.img} alt={project.name} />
+                  </Link>
                 </div>
-              )
-            })}
-        </section>
+              </div>
+            )
+          })}
       </section>
     </>
   )
