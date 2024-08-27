@@ -2,6 +2,7 @@ import "../styles/Projects.css"
 
 import imgHeadstart from "../assets/projects/headstartcourses.png"
 import imgThemotorbikedoctor from "../assets/projects/themotorbikedoctor.png"
+import imgKaico from "../assets/projects/kaico.png"
 
 import { Link } from "react-router-dom"
 
@@ -20,6 +21,13 @@ export default function Projects() {
       textUrl: "themotorbikedoctor.ie",
       url: "https://themotorbikedoctor.ie",
       img: imgThemotorbikedoctor,
+    },
+    {
+      id: 3,
+      name: "Kaico Ideias",
+      textUrl: "kaico.ie",
+      url: "https://kaico.ie/",
+      img: imgKaico,
     },
   ]
 
